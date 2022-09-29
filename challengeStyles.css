@@ -1,0 +1,117 @@
+body {
+background-image: url(../Session12/S12Chall/background.png);
+font-family: sans-serif;
+background-size: 200%;
+}
+
+.logo {
+  float: left;
+  height: 60px;
+  padding-left:800px;
+
+
+}
+
+nav ul {
+
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+
+}
+nav ul li {
+  display:inline-block;
+}
+
+nav li {
+
+  padding: 0 5vw;
+
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+
+
+.nav {
+  font-size: 0.65rem;
+  text-align: center;
+  color: black;
+  display: flex;
+  margin-right: 800px;
+  padding-top:25px;
+
+}
+
+a:hover {
+
+  color:rgb(233,196,230)
+}
+
+.cart {
+height:60px;
+padding-bottom: 30px;
+text-align: right;
+}
+
+.cart:hover {
+  cursor: pointer;
+}
+
+.col {
+
+  background-color: pink;
+  border-style: none;
+  border-radius: 5px;
+  padding: 7px;
+  margin-left: 60px;
+}
+.col:hover {
+  cursor: pointer;
+
+}
+
+.margin {
+  margin-left: 60px
+}
+
+
+.imgRight {
+  float: right;
+  height: 500px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.arrowL {
+  height: 50px;
+  padding-right: 30px;
+}
+
+.arrowR {
+  height: 50px;
+}
+
+.arrowL:hover {
+
+  cursor:pointer;
+
+}
+
+.arrowR:hover {
+
+  cursor:pointer;
+
+}
+
+
+
+/* socials img
+
+transform: translate y
+
+*/
